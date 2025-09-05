@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { NxWelcomeComponent } from './nx-welcome.component';
+import { AppModule } from "../app.module";
 
 @Component({
   standalone: true,
-  imports: [CommonModule, NxWelcomeComponent],
+  imports: [CommonModule, AppModule],
   selector: 'app-swag-store-entry',
   template: `<app-nx-welcome></app-nx-welcome>`,
 })
